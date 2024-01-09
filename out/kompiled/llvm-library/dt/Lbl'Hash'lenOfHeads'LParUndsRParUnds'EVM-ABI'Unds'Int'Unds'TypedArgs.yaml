@@ -1,0 +1,17 @@
+default: null
+specializations:
+- - Lbl'Stop'List'LBraQuotUndsCommUndsUnds'EVM-ABI'Unds'TypedArgs'Unds'TypedArg'Unds'TypedArgs'QuotRBraUnds'TypedArgs{}
+  - action:
+    - 49064
+    - []
+  - []
+- - Lbl'UndsCommUndsUnds'EVM-ABI'Unds'TypedArgs'Unds'TypedArg'Unds'TypedArgs{}
+  - action:
+    - 49065
+    - - - ['0', '1']
+        - STRING.String
+      - - ['1', '1']
+        - STRING.String
+  - [STRING.String, STRING.String]
+sort: STRING.String
+occurrence: ['1']

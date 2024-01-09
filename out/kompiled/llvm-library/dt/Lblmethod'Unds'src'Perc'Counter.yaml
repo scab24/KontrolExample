@@ -1,0 +1,28 @@
+default: null
+specializations:
+- - Lblcontract'Unds'src'Perc'Counter{}
+  - default: null
+    specializations:
+    - - Lblmethod'Unds'Counter'Unds'S2Kincrement'Unds'{}
+      - action:
+        - 51545
+        - []
+      - []
+    - - Lblmethod'Unds'Counter'Unds'S2Knumber'Unds'{}
+      - action:
+        - 51546
+        - []
+      - []
+    - - Lblmethod'Unds'Counter'Unds'S2KsetNumber'Unds'uint256'Unds'bool{}
+      - action:
+        - 51547
+        - - - ['0', '2']
+            - INT.Int
+          - - ['1', '2']
+            - INT.Int
+      - [INT.Int, INT.Int]
+    sort: STRING.String
+    occurrence: ['2']
+  - []
+sort: STRING.String
+occurrence: ['1']

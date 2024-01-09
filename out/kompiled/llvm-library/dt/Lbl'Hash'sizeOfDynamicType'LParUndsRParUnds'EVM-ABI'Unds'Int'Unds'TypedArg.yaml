@@ -1,0 +1,61 @@
+default: fail
+specializations:
+- - Lblabi'Unds'type'Unds'array{}
+  - args:
+    - - &id001 ['0', '1']
+      - STRING.String
+    next:
+      default: null
+      specializations:
+      - - '1'
+        - action:
+          - 49225
+          - - - &id002 ['2', '1']
+              - STRING.String
+            - - &id003 ['1', '1']
+              - INT.Int
+            - - *id001
+              - STRING.String
+        - []
+      - - '0'
+        - args:
+          - - *id001
+            - STRING.String
+          next:
+            default: null
+            specializations:
+            - - '1'
+              - action:
+                - 49226
+                - - - *id002
+                    - STRING.String
+                  - - *id003
+                    - INT.Int
+                  - - *id001
+                    - STRING.String
+              - []
+            - - '0'
+              - fail
+              - []
+            bitwidth: 1
+            sort: BOOL.Bool
+            occurrence: &id004 [side_condition_49226]
+          function: side_condition_49226
+          sort: BOOL.Bool
+          occurrence: *id004
+        - []
+      bitwidth: 1
+      sort: BOOL.Bool
+      occurrence: &id005 [side_condition_49225]
+    function: side_condition_49225
+    sort: BOOL.Bool
+    occurrence: *id005
+  - [STRING.String, INT.Int, STRING.String]
+- - Lblabi'Unds'type'Unds'bytes{}
+  - action:
+    - 49227
+    - - - ['0', '1']
+        - BYTES.Bytes
+  - [BYTES.Bytes]
+sort: STRING.String
+occurrence: ['1']

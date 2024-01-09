@@ -1,0 +1,31 @@
+default: null
+specializations:
+- - Lbl'Stop'List'LBraQuotUndsCommUndsUnds'EVM-ABI'Unds'EventArgs'Unds'EventArg'Unds'EventArgs'QuotRBraUnds'EventArgs{}
+  - action:
+    - 48731
+    - []
+  - []
+- - Lbl'UndsCommUndsUnds'EVM-ABI'Unds'EventArgs'Unds'EventArg'Unds'EventArgs{}
+  - default: null
+    specializations:
+    - - Lbl'Hash'indexed'LParUndsRParUnds'EVM-ABI'Unds'EventArg'Unds'TypedArg{}
+      - action:
+        - 48732
+        - - - ['0', '0', '1']
+            - STRING.String
+          - - &id001 ['1', '1']
+            - STRING.String
+      - [STRING.String]
+    - - inj{SortTypedArg{}, SortEventArg{}}
+      - action:
+        - 48733
+        - - - ['0', '0', '1']
+            - STRING.String
+          - - *id001
+            - STRING.String
+      - [STRING.String]
+    sort: STRING.String
+    occurrence: ['0', '1']
+  - [STRING.String, STRING.String]
+sort: STRING.String
+occurrence: ['1']

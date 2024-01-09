@@ -1,0 +1,810 @@
+default: fail
+specializations:
+- - Lblabi'Unds'type'Unds'address{}
+  - action:
+    - 48608
+    - - - &id001 ['1']
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bool{}
+  - action:
+    - 48609
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes1{}
+  - action:
+    - 48610
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes10{}
+  - action:
+    - 48611
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes11{}
+  - action:
+    - 48612
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes12{}
+  - action:
+    - 48613
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes13{}
+  - action:
+    - 48614
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes14{}
+  - action:
+    - 48615
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes15{}
+  - action:
+    - 48616
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes16{}
+  - action:
+    - 48617
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes17{}
+  - action:
+    - 48618
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes18{}
+  - action:
+    - 48619
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes19{}
+  - action:
+    - 48620
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes2{}
+  - action:
+    - 48621
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes20{}
+  - action:
+    - 48622
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes21{}
+  - action:
+    - 48623
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes22{}
+  - action:
+    - 48624
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes23{}
+  - action:
+    - 48625
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes24{}
+  - action:
+    - 48626
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes25{}
+  - action:
+    - 48627
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes26{}
+  - action:
+    - 48628
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes27{}
+  - action:
+    - 48629
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes28{}
+  - action:
+    - 48630
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes29{}
+  - action:
+    - 48631
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes3{}
+  - action:
+    - 48632
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes30{}
+  - action:
+    - 48633
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes31{}
+  - action:
+    - 48634
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes32{}
+  - action:
+    - 48635
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes4{}
+  - action:
+    - 48636
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes5{}
+  - action:
+    - 48637
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes6{}
+  - action:
+    - 48638
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes7{}
+  - action:
+    - 48639
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes8{}
+  - action:
+    - 48640
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes9{}
+  - action:
+    - 48641
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int104{}
+  - action:
+    - 48642
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int112{}
+  - action:
+    - 48643
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int120{}
+  - action:
+    - 48644
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int128{}
+  - action:
+    - 48645
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int136{}
+  - action:
+    - 48646
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int144{}
+  - action:
+    - 48647
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int152{}
+  - action:
+    - 48648
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int16{}
+  - action:
+    - 48649
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int160{}
+  - action:
+    - 48650
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int168{}
+  - action:
+    - 48651
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int176{}
+  - action:
+    - 48652
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int184{}
+  - action:
+    - 48653
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int192{}
+  - action:
+    - 48654
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int200{}
+  - action:
+    - 48655
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int208{}
+  - action:
+    - 48656
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int216{}
+  - action:
+    - 48657
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int224{}
+  - action:
+    - 48658
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int232{}
+  - action:
+    - 48659
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int24{}
+  - action:
+    - 48660
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int240{}
+  - action:
+    - 48661
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int248{}
+  - action:
+    - 48662
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int256{}
+  - action:
+    - 48663
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int32{}
+  - action:
+    - 48664
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int40{}
+  - action:
+    - 48665
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int48{}
+  - action:
+    - 48666
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int56{}
+  - action:
+    - 48667
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int64{}
+  - action:
+    - 48668
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int72{}
+  - action:
+    - 48669
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int8{}
+  - action:
+    - 48670
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int80{}
+  - action:
+    - 48671
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int88{}
+  - action:
+    - 48672
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int96{}
+  - action:
+    - 48673
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint104{}
+  - action:
+    - 48674
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint112{}
+  - action:
+    - 48675
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint120{}
+  - action:
+    - 48676
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint128{}
+  - action:
+    - 48677
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint136{}
+  - action:
+    - 48678
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint144{}
+  - action:
+    - 48679
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint152{}
+  - action:
+    - 48680
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint16{}
+  - action:
+    - 48681
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint160{}
+  - action:
+    - 48682
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint168{}
+  - action:
+    - 48683
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint176{}
+  - action:
+    - 48684
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint184{}
+  - action:
+    - 48685
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint192{}
+  - action:
+    - 48686
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint200{}
+  - action:
+    - 48687
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint208{}
+  - action:
+    - 48688
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint216{}
+  - action:
+    - 48689
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint224{}
+  - action:
+    - 48690
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint232{}
+  - action:
+    - 48691
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint24{}
+  - action:
+    - 48692
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint240{}
+  - action:
+    - 48693
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint248{}
+  - action:
+    - 48694
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint256{}
+  - action:
+    - 48695
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint32{}
+  - action:
+    - 48696
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint40{}
+  - action:
+    - 48697
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint48{}
+  - action:
+    - 48698
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint56{}
+  - action:
+    - 48699
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint64{}
+  - action:
+    - 48700
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint72{}
+  - action:
+    - 48701
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint8{}
+  - action:
+    - 48702
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint80{}
+  - action:
+    - 48703
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint88{}
+  - action:
+    - 48704
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint96{}
+  - action:
+    - 48705
+    - - - *id001
+        - STRING.String
+      - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'array{}
+  - action:
+    - 48706
+    - - - ['0', '1']
+        - STRING.String
+      - - ['2', '1']
+        - STRING.String
+      - - ['1', '1']
+        - INT.Int
+  - [STRING.String, INT.Int, STRING.String]
+- - Lblabi'Unds'type'Unds'bytes{}
+  - action:
+    - 48707
+    - - - ['0', '1']
+        - BYTES.Bytes
+  - [BYTES.Bytes]
+- - Lblabi'Unds'type'Unds'string{}
+  - action:
+    - 48708
+    - - - ['0', '1']
+        - STRING.String
+  - [STRING.String]
+sort: STRING.String
+occurrence: *id001

@@ -1,0 +1,20 @@
+action:
+- 48836
+- - - ['6']
+    - BYTES.Bytes
+  - - ['3']
+    - INT.Int
+  - - ['1']
+    - INT.Int
+  - - ['2']
+    - INT.Int
+  - - ['8']
+    - BYTES.Bytes
+  - - ['9']
+    - BYTES.Bytes
+  - - ['4']
+    - STRING.String
+  - - ['5']
+    - INT.Int
+  - - ['7']
+    - INT.Int

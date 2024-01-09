@@ -1,0 +1,93 @@
+default: null
+specializations:
+- - Lblcontract'Unds'test'Perc'CounterTest{}
+  - default: null
+    specializations:
+    - - Lblmethod'Unds'CounterTest'Unds'S2KISZUndTEST'Unds'{}
+      - action:
+        - 51548
+        - []
+      - []
+    - - Lblmethod'Unds'CounterTest'Unds'S2Kcounter'Unds'{}
+      - action:
+        - 51549
+        - []
+      - []
+    - - Lblmethod'Unds'CounterTest'Unds'S2KexcludeArtifacts'Unds'{}
+      - action:
+        - 51550
+        - []
+      - []
+    - - Lblmethod'Unds'CounterTest'Unds'S2KexcludeContracts'Unds'{}
+      - action:
+        - 51551
+        - []
+      - []
+    - - Lblmethod'Unds'CounterTest'Unds'S2KexcludeSenders'Unds'{}
+      - action:
+        - 51552
+        - []
+      - []
+    - - Lblmethod'Unds'CounterTest'Unds'S2Kfailed'Unds'{}
+      - action:
+        - 51553
+        - []
+      - []
+    - - Lblmethod'Unds'CounterTest'Unds'S2Kkevm'Unds'{}
+      - action:
+        - 51554
+        - []
+      - []
+    - - Lblmethod'Unds'CounterTest'Unds'S2KsetUp'Unds'{}
+      - action:
+        - 51555
+        - []
+      - []
+    - - Lblmethod'Unds'CounterTest'Unds'S2KtargetArtifactSelectors'Unds'{}
+      - action:
+        - 51556
+        - []
+      - []
+    - - Lblmethod'Unds'CounterTest'Unds'S2KtargetArtifacts'Unds'{}
+      - action:
+        - 51557
+        - []
+      - []
+    - - Lblmethod'Unds'CounterTest'Unds'S2KtargetContracts'Unds'{}
+      - action:
+        - 51558
+        - []
+      - []
+    - - Lblmethod'Unds'CounterTest'Unds'S2KtargetInterfaces'Unds'{}
+      - action:
+        - 51559
+        - []
+      - []
+    - - Lblmethod'Unds'CounterTest'Unds'S2KtargetSelectors'Unds'{}
+      - action:
+        - 51560
+        - []
+      - []
+    - - Lblmethod'Unds'CounterTest'Unds'S2KtargetSenders'Unds'{}
+      - action:
+        - 51561
+        - []
+      - []
+    - - Lblmethod'Unds'CounterTest'Unds'S2KtestIncrement'Unds'{}
+      - action:
+        - 51562
+        - []
+      - []
+    - - Lblmethod'Unds'CounterTest'Unds'S2KtestSetNumber'Unds'uint256'Unds'bool{}
+      - action:
+        - 51563
+        - - - ['0', '2']
+            - INT.Int
+          - - ['1', '2']
+            - INT.Int
+      - [INT.Int, INT.Int]
+    sort: STRING.String
+    occurrence: ['2']
+  - []
+sort: STRING.String
+occurrence: ['1']

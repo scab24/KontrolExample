@@ -1,0 +1,940 @@
+default: null
+specializations:
+- - Lblcontract'Unds'lib'Perc'forge-std'Perc'src'Perc'VmSafe{}
+  - default: fail
+    specializations:
+    - - Lblmethod'Unds'VmSafe'Unds'S2Kaccesses'Unds'address{}
+      - action:
+        - 51350
+        - - - ['0', '2']
+            - INT.Int
+      - [INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2Kaddr'Unds'uint256{}
+      - action:
+        - 51351
+        - - - ['0', '2']
+            - INT.Int
+      - [INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2Kassume'Unds'bool{}
+      - action:
+        - 51352
+        - - - ['0', '2']
+            - INT.Int
+      - [INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2Kbreakpoint'Unds'string{}
+      - action:
+        - 51353
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2Kbreakpoint'Unds'string'Unds'bool{}
+      - action:
+        - 51354
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - INT.Int
+      - [STRING.String, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2Kbroadcast'Unds'{}
+      - action:
+        - 51355
+        - []
+      - []
+    - - Lblmethod'Unds'VmSafe'Unds'S2Kbroadcast'Unds'address{}
+      - action:
+        - 51356
+        - - - ['0', '2']
+            - INT.Int
+      - [INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2Kbroadcast'Unds'uint256{}
+      - action:
+        - 51357
+        - - - ['0', '2']
+            - INT.Int
+      - [INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KcloseFile'Unds'string{}
+      - action:
+        - 51358
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KcomputeCreate2Address'Unds'bytes32'Unds'bytes32{}
+      - action:
+        - 51359
+        - - - ['0', '2']
+            - INT.Int
+          - - ['1', '2']
+            - INT.Int
+      - [INT.Int, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KcomputeCreate2Address'Unds'bytes32'Unds'bytes32'Unds'address{}
+      - action:
+        - 51360
+        - - - ['0', '2']
+            - INT.Int
+          - - ['1', '2']
+            - INT.Int
+          - - ['2', '2']
+            - INT.Int
+      - [INT.Int, INT.Int, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KcomputeCreateAddress'Unds'address'Unds'uint256{}
+      - action:
+        - 51361
+        - - - ['0', '2']
+            - INT.Int
+          - - ['1', '2']
+            - INT.Int
+      - [INT.Int, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KcopyFile'Unds'string'Unds'string{}
+      - action:
+        - 51362
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KcreateDir'Unds'string'Unds'bool{}
+      - action:
+        - 51363
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - INT.Int
+      - [STRING.String, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KcreateWallet'Unds'string{}
+      - action:
+        - 51364
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KcreateWallet'Unds'uint256{}
+      - action:
+        - 51365
+        - - - ['0', '2']
+            - INT.Int
+      - [INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KcreateWallet'Unds'uint256'Unds'string{}
+      - action:
+        - 51366
+        - - - ['0', '2']
+            - INT.Int
+          - - ['1', '2']
+            - STRING.String
+      - [INT.Int, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KderiveKey'Unds'string'Unds'string'Unds'uint32{}
+      - action:
+        - 51367
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+          - - ['2', '2']
+            - INT.Int
+      - [STRING.String, STRING.String, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KderiveKey'Unds'string'Unds'uint32{}
+      - action:
+        - 51368
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - INT.Int
+      - [STRING.String, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KenvAddress'Unds'string{}
+      - action:
+        - 51369
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KenvAddress'Unds'string'Unds'string{}
+      - action:
+        - 51370
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KenvBool'Unds'string{}
+      - action:
+        - 51371
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KenvBool'Unds'string'Unds'string{}
+      - action:
+        - 51372
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KenvBytes32'Unds'string{}
+      - action:
+        - 51373
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KenvBytes32'Unds'string'Unds'string{}
+      - action:
+        - 51374
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KenvBytes'Unds'string{}
+      - action:
+        - 51375
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KenvBytes'Unds'string'Unds'string{}
+      - action:
+        - 51376
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KenvInt'Unds'string{}
+      - action:
+        - 51377
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KenvInt'Unds'string'Unds'string{}
+      - action:
+        - 51378
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KenvOr'Unds'string'Unds'address{}
+      - action:
+        - 51379
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - INT.Int
+      - [STRING.String, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KenvOr'Unds'string'Unds'bool{}
+      - action:
+        - 51380
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - INT.Int
+      - [STRING.String, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KenvOr'Unds'string'Unds'bytes{}
+      - action:
+        - 51381
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - BYTES.Bytes
+      - [STRING.String, BYTES.Bytes]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KenvOr'Unds'string'Unds'bytes32{}
+      - action:
+        - 51382
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - INT.Int
+      - [STRING.String, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KenvOr'Unds'string'Unds'int256{}
+      - action:
+        - 51383
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - INT.Int
+      - [STRING.String, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KenvOr'Unds'string'Unds'string{}
+      - action:
+        - 51384
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KenvOr'Unds'string'Unds'uint256{}
+      - action:
+        - 51385
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - INT.Int
+      - [STRING.String, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KenvString'Unds'string{}
+      - action:
+        - 51386
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KenvString'Unds'string'Unds'string{}
+      - action:
+        - 51387
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KenvUint'Unds'string{}
+      - action:
+        - 51388
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KenvUint'Unds'string'Unds'string{}
+      - action:
+        - 51389
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2Kexists'Unds'string{}
+      - action:
+        - 51390
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KfsMetadata'Unds'string{}
+      - action:
+        - 51391
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KgetCode'Unds'string{}
+      - action:
+        - 51392
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KgetDeployedCode'Unds'string{}
+      - action:
+        - 51393
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KgetLabel'Unds'address{}
+      - action:
+        - 51394
+        - - - ['0', '2']
+            - INT.Int
+      - [INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KgetMappingKeyAndParentOf'Unds'address'Unds'bytes32{}
+      - action:
+        - 51395
+        - - - ['0', '2']
+            - INT.Int
+          - - ['1', '2']
+            - INT.Int
+      - [INT.Int, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KgetMappingLength'Unds'address'Unds'bytes32{}
+      - action:
+        - 51396
+        - - - ['0', '2']
+            - INT.Int
+          - - ['1', '2']
+            - INT.Int
+      - [INT.Int, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KgetMappingSlotAt'Unds'address'Unds'bytes32'Unds'uint256{}
+      - action:
+        - 51397
+        - - - ['0', '2']
+            - INT.Int
+          - - ['1', '2']
+            - INT.Int
+          - - ['2', '2']
+            - INT.Int
+      - [INT.Int, INT.Int, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KgetNonce'Unds'address{}
+      - action:
+        - 51398
+        - - - ['0', '2']
+            - INT.Int
+      - [INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KgetNonce'Unds'address'Unds'uint256'Unds'uint256'Unds'uint256{}
+      - action:
+        - 51399
+        - - - ['0', '2']
+            - INT.Int
+          - - ['1', '2']
+            - INT.Int
+          - - ['2', '2']
+            - INT.Int
+          - - ['3', '2']
+            - INT.Int
+      - [INT.Int, INT.Int, INT.Int, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KgetRecordedLogs'Unds'{}
+      - action:
+        - 51400
+        - []
+      - []
+    - - Lblmethod'Unds'VmSafe'Unds'S2KisDir'Unds'string{}
+      - action:
+        - 51401
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KisFile'Unds'string{}
+      - action:
+        - 51402
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KkeyExists'Unds'string'Unds'string{}
+      - action:
+        - 51403
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2Klabel'Unds'address'Unds'string{}
+      - action:
+        - 51404
+        - - - ['0', '2']
+            - INT.Int
+          - - ['1', '2']
+            - STRING.String
+      - [INT.Int, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2Kload'Unds'address'Unds'bytes32{}
+      - action:
+        - 51405
+        - - - ['0', '2']
+            - INT.Int
+          - - ['1', '2']
+            - INT.Int
+      - [INT.Int, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KparseAddress'Unds'string{}
+      - action:
+        - 51406
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KparseBool'Unds'string{}
+      - action:
+        - 51407
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KparseBytes32'Unds'string{}
+      - action:
+        - 51408
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KparseBytes'Unds'string{}
+      - action:
+        - 51409
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KparseInt'Unds'string{}
+      - action:
+        - 51410
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KparseJsonAddressArray'Unds'string'Unds'string{}
+      - action:
+        - 51411
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KparseJsonAddress'Unds'string'Unds'string{}
+      - action:
+        - 51412
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KparseJsonBoolArray'Unds'string'Unds'string{}
+      - action:
+        - 51413
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KparseJsonBool'Unds'string'Unds'string{}
+      - action:
+        - 51414
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KparseJsonBytes32Array'Unds'string'Unds'string{}
+      - action:
+        - 51415
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KparseJsonBytes32'Unds'string'Unds'string{}
+      - action:
+        - 51416
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KparseJsonBytesArray'Unds'string'Unds'string{}
+      - action:
+        - 51417
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KparseJsonBytes'Unds'string'Unds'string{}
+      - action:
+        - 51418
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KparseJsonIntArray'Unds'string'Unds'string{}
+      - action:
+        - 51419
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KparseJsonInt'Unds'string'Unds'string{}
+      - action:
+        - 51420
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KparseJsonKeys'Unds'string'Unds'string{}
+      - action:
+        - 51421
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KparseJsonStringArray'Unds'string'Unds'string{}
+      - action:
+        - 51422
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KparseJsonString'Unds'string'Unds'string{}
+      - action:
+        - 51423
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KparseJsonUintArray'Unds'string'Unds'string{}
+      - action:
+        - 51424
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KparseJsonUint'Unds'string'Unds'string{}
+      - action:
+        - 51425
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KparseJson'Unds'string{}
+      - action:
+        - 51426
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KparseJson'Unds'string'Unds'string{}
+      - action:
+        - 51427
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KparseUint'Unds'string{}
+      - action:
+        - 51428
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KpauseGasMetering'Unds'{}
+      - action:
+        - 51429
+        - []
+      - []
+    - - Lblmethod'Unds'VmSafe'Unds'S2KprojectRoot'Unds'{}
+      - action:
+        - 51430
+        - []
+      - []
+    - - Lblmethod'Unds'VmSafe'Unds'S2KreadDir'Unds'string{}
+      - action:
+        - 51431
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KreadDir'Unds'string'Unds'uint64{}
+      - action:
+        - 51432
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - INT.Int
+      - [STRING.String, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KreadDir'Unds'string'Unds'uint64'Unds'bool{}
+      - action:
+        - 51433
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - INT.Int
+          - - ['2', '2']
+            - INT.Int
+      - [STRING.String, INT.Int, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KreadFileBinary'Unds'string{}
+      - action:
+        - 51434
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KreadFile'Unds'string{}
+      - action:
+        - 51435
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KreadLine'Unds'string{}
+      - action:
+        - 51436
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KreadLink'Unds'string{}
+      - action:
+        - 51437
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KrecordLogs'Unds'{}
+      - action:
+        - 51438
+        - []
+      - []
+    - - Lblmethod'Unds'VmSafe'Unds'S2Krecord'Unds'{}
+      - action:
+        - 51439
+        - []
+      - []
+    - - Lblmethod'Unds'VmSafe'Unds'S2KrememberKey'Unds'uint256{}
+      - action:
+        - 51440
+        - - - ['0', '2']
+            - INT.Int
+      - [INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KremoveDir'Unds'string'Unds'bool{}
+      - action:
+        - 51441
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - INT.Int
+      - [STRING.String, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KremoveFile'Unds'string{}
+      - action:
+        - 51442
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KresumeGasMetering'Unds'{}
+      - action:
+        - 51443
+        - []
+      - []
+    - - Lblmethod'Unds'VmSafe'Unds'S2KrpcUrlStructs'Unds'{}
+      - action:
+        - 51444
+        - []
+      - []
+    - - Lblmethod'Unds'VmSafe'Unds'S2KrpcUrl'Unds'string{}
+      - action:
+        - 51445
+        - - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KrpcUrls'Unds'{}
+      - action:
+        - 51446
+        - []
+      - []
+    - - Lblmethod'Unds'VmSafe'Unds'S2Krpc'Unds'string'Unds'string{}
+      - action:
+        - 51447
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KserializeAddress'Unds'string'Unds'string'Unds'address{}
+      - action:
+        - 51448
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+          - - ['2', '2']
+            - INT.Int
+      - [STRING.String, STRING.String, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KserializeBool'Unds'string'Unds'string'Unds'bool{}
+      - action:
+        - 51449
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+          - - ['2', '2']
+            - INT.Int
+      - [STRING.String, STRING.String, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KserializeBytes32'Unds'string'Unds'string'Unds'bytes32{}
+      - action:
+        - 51450
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+          - - ['2', '2']
+            - INT.Int
+      - [STRING.String, STRING.String, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KserializeBytes'Unds'string'Unds'string'Unds'bytes{}
+      - action:
+        - 51451
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+          - - ['2', '2']
+            - BYTES.Bytes
+      - [STRING.String, STRING.String, BYTES.Bytes]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KserializeInt'Unds'string'Unds'string'Unds'int256{}
+      - action:
+        - 51452
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+          - - ['2', '2']
+            - INT.Int
+      - [STRING.String, STRING.String, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KserializeJson'Unds'string'Unds'string{}
+      - action:
+        - 51453
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KserializeString'Unds'string'Unds'string'Unds'string{}
+      - action:
+        - 51454
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+          - - ['2', '2']
+            - STRING.String
+      - [STRING.String, STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KserializeUint'Unds'string'Unds'string'Unds'uint256{}
+      - action:
+        - 51455
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+          - - ['2', '2']
+            - INT.Int
+      - [STRING.String, STRING.String, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KsetEnv'Unds'string'Unds'string{}
+      - action:
+        - 51456
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2Ksign'Unds'address'Unds'uint256'Unds'uint256'Unds'uint256'Unds'bytes32{}
+      - action:
+        - 51457
+        - - - ['0', '2']
+            - INT.Int
+          - - ['1', '2']
+            - INT.Int
+          - - ['2', '2']
+            - INT.Int
+          - - ['3', '2']
+            - INT.Int
+          - - ['4', '2']
+            - INT.Int
+      - [INT.Int, INT.Int, INT.Int, INT.Int, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2Ksign'Unds'uint256'Unds'bytes32{}
+      - action:
+        - 51458
+        - - - ['0', '2']
+            - INT.Int
+          - - ['1', '2']
+            - INT.Int
+      - [INT.Int, INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2Ksleep'Unds'uint256{}
+      - action:
+        - 51459
+        - - - ['0', '2']
+            - INT.Int
+      - [INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KstartBroadcast'Unds'{}
+      - action:
+        - 51460
+        - []
+      - []
+    - - Lblmethod'Unds'VmSafe'Unds'S2KstartBroadcast'Unds'address{}
+      - action:
+        - 51461
+        - - - ['0', '2']
+            - INT.Int
+      - [INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KstartBroadcast'Unds'uint256{}
+      - action:
+        - 51462
+        - - - ['0', '2']
+            - INT.Int
+      - [INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KstartMappingRecording'Unds'{}
+      - action:
+        - 51463
+        - []
+      - []
+    - - Lblmethod'Unds'VmSafe'Unds'S2KstartStateDiffRecording'Unds'{}
+      - action:
+        - 51464
+        - []
+      - []
+    - - Lblmethod'Unds'VmSafe'Unds'S2KstopAndReturnStateDiff'Unds'{}
+      - action:
+        - 51465
+        - []
+      - []
+    - - Lblmethod'Unds'VmSafe'Unds'S2KstopBroadcast'Unds'{}
+      - action:
+        - 51466
+        - []
+      - []
+    - - Lblmethod'Unds'VmSafe'Unds'S2KstopMappingRecording'Unds'{}
+      - action:
+        - 51467
+        - []
+      - []
+    - - Lblmethod'Unds'VmSafe'Unds'S2KtoString'Unds'address{}
+      - action:
+        - 51468
+        - - - ['0', '2']
+            - INT.Int
+      - [INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KtoString'Unds'bool{}
+      - action:
+        - 51469
+        - - - ['0', '2']
+            - INT.Int
+      - [INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KtoString'Unds'bytes{}
+      - action:
+        - 51470
+        - - - ['0', '2']
+            - BYTES.Bytes
+      - [BYTES.Bytes]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KtoString'Unds'bytes32{}
+      - action:
+        - 51471
+        - - - ['0', '2']
+            - INT.Int
+      - [INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KtoString'Unds'int256{}
+      - action:
+        - 51472
+        - - - ['0', '2']
+            - INT.Int
+      - [INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KtoString'Unds'uint256{}
+      - action:
+        - 51473
+        - - - ['0', '2']
+            - INT.Int
+      - [INT.Int]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KunixTime'Unds'{}
+      - action:
+        - 51474
+        - []
+      - []
+    - - Lblmethod'Unds'VmSafe'Unds'S2KwriteFileBinary'Unds'string'Unds'bytes{}
+      - action:
+        - 51475
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - BYTES.Bytes
+      - [STRING.String, BYTES.Bytes]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KwriteFile'Unds'string'Unds'string{}
+      - action:
+        - 51476
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KwriteJson'Unds'string'Unds'string{}
+      - action:
+        - 51477
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KwriteJson'Unds'string'Unds'string'Unds'string{}
+      - action:
+        - 51478
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+          - - ['2', '2']
+            - STRING.String
+      - [STRING.String, STRING.String, STRING.String]
+    - - Lblmethod'Unds'VmSafe'Unds'S2KwriteLine'Unds'string'Unds'string{}
+      - action:
+        - 51479
+        - - - ['0', '2']
+            - STRING.String
+          - - ['1', '2']
+            - STRING.String
+      - [STRING.String, STRING.String]
+    sort: STRING.String
+    occurrence: ['2']
+  - []
+sort: STRING.String
+occurrence: ['1']

@@ -1,0 +1,15 @@
+default: null
+specializations:
+- - Lblmethod'Unds'Script'Unds'S2KISZUndSCRIPT'Unds'{}
+  - default: null
+    specializations:
+    - - Lblcontract'Unds'lib'Perc'forge-std'Perc'src'Perc'Script{}
+      - action:
+        - 51131
+        - []
+      - []
+    sort: STRING.String
+    occurrence: ['1']
+  - []
+sort: STRING.String
+occurrence: ['2']

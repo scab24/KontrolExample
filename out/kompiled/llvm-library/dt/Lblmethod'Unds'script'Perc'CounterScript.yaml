@@ -1,0 +1,25 @@
+default: null
+specializations:
+- - Lblcontract'Unds'script'Perc'CounterScript{}
+  - default: null
+    specializations:
+    - - Lblmethod'Unds'CounterScript'Unds'S2KISZUndSCRIPT'Unds'{}
+      - action:
+        - 51542
+        - []
+      - []
+    - - Lblmethod'Unds'CounterScript'Unds'S2Krun'Unds'{}
+      - action:
+        - 51543
+        - []
+      - []
+    - - Lblmethod'Unds'CounterScript'Unds'S2KsetUp'Unds'{}
+      - action:
+        - 51544
+        - []
+      - []
+    sort: STRING.String
+    occurrence: ['2']
+  - []
+sort: STRING.String
+occurrence: ['1']

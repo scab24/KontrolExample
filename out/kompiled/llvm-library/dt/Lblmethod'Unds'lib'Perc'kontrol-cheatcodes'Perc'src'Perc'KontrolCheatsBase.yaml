@@ -1,0 +1,111 @@
+default: null
+specializations:
+- - Lblcontract'Unds'lib'Perc'kontrol-cheatcodes'Perc'src'Perc'KontrolCheatsBase{}
+  - default: null
+    specializations:
+    - - Lblmethod'Unds'KontrolCheatsBase'Unds'S2KallowCallsToAddress'Unds'address{}
+      - action:
+        - 51528
+        - - - ['0', '2']
+            - INT.Int
+      - [INT.Int]
+    - - Lblmethod'Unds'KontrolCheatsBase'Unds'S2KallowChangesToStorage'Unds'address'Unds'uint256{}
+      - action:
+        - 51529
+        - - - ['0', '2']
+            - INT.Int
+          - - ['1', '2']
+            - INT.Int
+      - [INT.Int, INT.Int]
+    - - Lblmethod'Unds'KontrolCheatsBase'Unds'S2KexpectCreate2'Unds'address'Unds'uint256'Unds'bytes{}
+      - action:
+        - 51530
+        - - - ['0', '2']
+            - INT.Int
+          - - ['1', '2']
+            - INT.Int
+          - - ['2', '2']
+            - BYTES.Bytes
+      - [INT.Int, INT.Int, BYTES.Bytes]
+    - - Lblmethod'Unds'KontrolCheatsBase'Unds'S2KexpectCreate'Unds'address'Unds'uint256'Unds'bytes{}
+      - action:
+        - 51531
+        - - - ['0', '2']
+            - INT.Int
+          - - ['1', '2']
+            - INT.Int
+          - - ['2', '2']
+            - BYTES.Bytes
+      - [INT.Int, INT.Int, BYTES.Bytes]
+    - - Lblmethod'Unds'KontrolCheatsBase'Unds'S2KexpectDelegateCall'Unds'address'Unds'bytes{}
+      - action:
+        - 51532
+        - - - ['0', '2']
+            - INT.Int
+          - - ['1', '2']
+            - BYTES.Bytes
+      - [INT.Int, BYTES.Bytes]
+    - - Lblmethod'Unds'KontrolCheatsBase'Unds'S2KexpectNoCall'Unds'{}
+      - action:
+        - 51533
+        - []
+      - []
+    - - Lblmethod'Unds'KontrolCheatsBase'Unds'S2KexpectRegularCall'Unds'address'Unds'bytes{}
+      - action:
+        - 51534
+        - - - ['0', '2']
+            - INT.Int
+          - - ['1', '2']
+            - BYTES.Bytes
+      - [INT.Int, BYTES.Bytes]
+    - - Lblmethod'Unds'KontrolCheatsBase'Unds'S2KexpectRegularCall'Unds'address'Unds'uint256'Unds'bytes{}
+      - action:
+        - 51535
+        - - - ['0', '2']
+            - INT.Int
+          - - ['1', '2']
+            - INT.Int
+          - - ['2', '2']
+            - BYTES.Bytes
+      - [INT.Int, INT.Int, BYTES.Bytes]
+    - - Lblmethod'Unds'KontrolCheatsBase'Unds'S2KexpectStaticCall'Unds'address'Unds'bytes{}
+      - action:
+        - 51536
+        - - - ['0', '2']
+            - INT.Int
+          - - ['1', '2']
+            - BYTES.Bytes
+      - [INT.Int, BYTES.Bytes]
+    - - Lblmethod'Unds'KontrolCheatsBase'Unds'S2KfreshBool'Unds'{}
+      - action:
+        - 51537
+        - []
+      - []
+    - - Lblmethod'Unds'KontrolCheatsBase'Unds'S2KfreshUInt'Unds'uint8{}
+      - action:
+        - 51538
+        - - - ['0', '2']
+            - INT.Int
+      - [INT.Int]
+    - - Lblmethod'Unds'KontrolCheatsBase'Unds'S2KinfiniteGas'Unds'{}
+      - action:
+        - 51539
+        - []
+      - []
+    - - Lblmethod'Unds'KontrolCheatsBase'Unds'S2KsetGas'Unds'uint256{}
+      - action:
+        - 51540
+        - - - ['0', '2']
+            - INT.Int
+      - [INT.Int]
+    - - Lblmethod'Unds'KontrolCheatsBase'Unds'S2KsymbolicStorage'Unds'address{}
+      - action:
+        - 51541
+        - - - ['0', '2']
+            - INT.Int
+      - [INT.Int]
+    sort: STRING.String
+    occurrence: ['2']
+  - []
+sort: STRING.String
+occurrence: ['1']

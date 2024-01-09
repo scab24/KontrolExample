@@ -1,0 +1,614 @@
+default: fail
+specializations:
+- - Lblabi'Unds'type'Unds'address{}
+  - action:
+    - 48860
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'array{}
+  - action:
+    - 48861
+    - - - ['0', '1']
+        - STRING.String
+      - - ['1', '1']
+        - INT.Int
+      - - ['2', '1']
+        - STRING.String
+  - [STRING.String, INT.Int, STRING.String]
+- - Lblabi'Unds'type'Unds'bool{}
+  - action:
+    - 48862
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes{}
+  - action:
+    - 48863
+    - - - ['0', '1']
+        - BYTES.Bytes
+  - [BYTES.Bytes]
+- - Lblabi'Unds'type'Unds'bytes1{}
+  - action:
+    - 48864
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes10{}
+  - action:
+    - 48865
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes11{}
+  - action:
+    - 48866
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes12{}
+  - action:
+    - 48867
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes13{}
+  - action:
+    - 48868
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes14{}
+  - action:
+    - 48869
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes15{}
+  - action:
+    - 48870
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes16{}
+  - action:
+    - 48871
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes17{}
+  - action:
+    - 48872
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes18{}
+  - action:
+    - 48873
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes19{}
+  - action:
+    - 48874
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes2{}
+  - action:
+    - 48875
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes20{}
+  - action:
+    - 48876
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes21{}
+  - action:
+    - 48877
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes22{}
+  - action:
+    - 48878
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes23{}
+  - action:
+    - 48879
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes24{}
+  - action:
+    - 48880
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes25{}
+  - action:
+    - 48881
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes26{}
+  - action:
+    - 48882
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes27{}
+  - action:
+    - 48883
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes28{}
+  - action:
+    - 48884
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes29{}
+  - action:
+    - 48885
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes3{}
+  - action:
+    - 48886
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes30{}
+  - action:
+    - 48887
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes31{}
+  - action:
+    - 48888
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes32{}
+  - action:
+    - 48889
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes4{}
+  - action:
+    - 48890
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes5{}
+  - action:
+    - 48891
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes6{}
+  - action:
+    - 48892
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes7{}
+  - action:
+    - 48893
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes8{}
+  - action:
+    - 48894
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'bytes9{}
+  - action:
+    - 48895
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int104{}
+  - action:
+    - 48896
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int112{}
+  - action:
+    - 48897
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int120{}
+  - action:
+    - 48898
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int128{}
+  - action:
+    - 48899
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int136{}
+  - action:
+    - 48900
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int144{}
+  - action:
+    - 48901
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int152{}
+  - action:
+    - 48902
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int16{}
+  - action:
+    - 48903
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int160{}
+  - action:
+    - 48904
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int168{}
+  - action:
+    - 48905
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int176{}
+  - action:
+    - 48906
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int184{}
+  - action:
+    - 48907
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int192{}
+  - action:
+    - 48908
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int200{}
+  - action:
+    - 48909
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int208{}
+  - action:
+    - 48910
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int216{}
+  - action:
+    - 48911
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int224{}
+  - action:
+    - 48912
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int232{}
+  - action:
+    - 48913
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int24{}
+  - action:
+    - 48914
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int240{}
+  - action:
+    - 48915
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int248{}
+  - action:
+    - 48916
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int256{}
+  - action:
+    - 48917
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int32{}
+  - action:
+    - 48918
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int40{}
+  - action:
+    - 48919
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int48{}
+  - action:
+    - 48920
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int56{}
+  - action:
+    - 48921
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int64{}
+  - action:
+    - 48922
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int72{}
+  - action:
+    - 48923
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int8{}
+  - action:
+    - 48924
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int80{}
+  - action:
+    - 48925
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int88{}
+  - action:
+    - 48926
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'int96{}
+  - action:
+    - 48927
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'string{}
+  - action:
+    - 48928
+    - - - ['0', '1']
+        - STRING.String
+  - [STRING.String]
+- - Lblabi'Unds'type'Unds'uint104{}
+  - action:
+    - 48929
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint112{}
+  - action:
+    - 48930
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint120{}
+  - action:
+    - 48931
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint128{}
+  - action:
+    - 48932
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint136{}
+  - action:
+    - 48933
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint144{}
+  - action:
+    - 48934
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint152{}
+  - action:
+    - 48935
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint16{}
+  - action:
+    - 48936
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint160{}
+  - action:
+    - 48937
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint168{}
+  - action:
+    - 48938
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint176{}
+  - action:
+    - 48939
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint184{}
+  - action:
+    - 48940
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint192{}
+  - action:
+    - 48941
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint200{}
+  - action:
+    - 48942
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint208{}
+  - action:
+    - 48943
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint216{}
+  - action:
+    - 48944
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint224{}
+  - action:
+    - 48945
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint232{}
+  - action:
+    - 48946
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint24{}
+  - action:
+    - 48947
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint240{}
+  - action:
+    - 48948
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint248{}
+  - action:
+    - 48949
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint256{}
+  - action:
+    - 48950
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint32{}
+  - action:
+    - 48951
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint40{}
+  - action:
+    - 48952
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint48{}
+  - action:
+    - 48953
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint56{}
+  - action:
+    - 48954
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint64{}
+  - action:
+    - 48955
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint72{}
+  - action:
+    - 48956
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint8{}
+  - action:
+    - 48957
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint80{}
+  - action:
+    - 48958
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint88{}
+  - action:
+    - 48959
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+- - Lblabi'Unds'type'Unds'uint96{}
+  - action:
+    - 48960
+    - - - ['0', '1']
+        - INT.Int
+  - [INT.Int]
+sort: STRING.String
+occurrence: ['1']

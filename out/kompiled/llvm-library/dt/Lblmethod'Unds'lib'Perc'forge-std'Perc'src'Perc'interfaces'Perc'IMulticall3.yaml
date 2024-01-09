@@ -1,0 +1,62 @@
+default: null
+specializations:
+- - Lblcontract'Unds'lib'Perc'forge-std'Perc'src'Perc'interfaces'Perc'IMulticall3{}
+  - default: fail
+    specializations:
+    - - Lblmethod'Unds'IMulticall3'Unds'S2KgetBasefee'Unds'{}
+      - action:
+        - 51480
+        - []
+      - []
+    - - Lblmethod'Unds'IMulticall3'Unds'S2KgetBlockHash'Unds'uint256{}
+      - action:
+        - 51481
+        - - - ['0', '2']
+            - INT.Int
+      - [INT.Int]
+    - - Lblmethod'Unds'IMulticall3'Unds'S2KgetBlockNumber'Unds'{}
+      - action:
+        - 51482
+        - []
+      - []
+    - - Lblmethod'Unds'IMulticall3'Unds'S2KgetChainId'Unds'{}
+      - action:
+        - 51483
+        - []
+      - []
+    - - Lblmethod'Unds'IMulticall3'Unds'S2KgetCurrentBlockCoinbase'Unds'{}
+      - action:
+        - 51484
+        - []
+      - []
+    - - Lblmethod'Unds'IMulticall3'Unds'S2KgetCurrentBlockDifficulty'Unds'{}
+      - action:
+        - 51485
+        - []
+      - []
+    - - Lblmethod'Unds'IMulticall3'Unds'S2KgetCurrentBlockGasLimit'Unds'{}
+      - action:
+        - 51486
+        - []
+      - []
+    - - Lblmethod'Unds'IMulticall3'Unds'S2KgetCurrentBlockTimestamp'Unds'{}
+      - action:
+        - 51487
+        - []
+      - []
+    - - Lblmethod'Unds'IMulticall3'Unds'S2KgetEthBalance'Unds'address{}
+      - action:
+        - 51488
+        - - - ['0', '2']
+            - INT.Int
+      - [INT.Int]
+    - - Lblmethod'Unds'IMulticall3'Unds'S2KgetLastBlockHash'Unds'{}
+      - action:
+        - 51489
+        - []
+      - []
+    sort: STRING.String
+    occurrence: ['2']
+  - []
+sort: STRING.String
+occurrence: ['1']

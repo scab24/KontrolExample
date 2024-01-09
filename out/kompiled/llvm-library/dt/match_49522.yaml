@@ -1,0 +1,111 @@
+default: null
+specializations:
+- - Lbl'-LT-'generatedTop'-GT-'{}
+  - default: null
+    specializations:
+    - - Lbl'-LT-'foundry'-GT-'{}
+      - default: null
+        specializations:
+        - - Lbl'-LT-'kevm'-GT-'{}
+          - default: null
+            specializations:
+            - - Lbl'-LT-'useGas'-GT-'{}
+              - default: null
+                specializations:
+                - - Lbl'-LT-'k'-GT-'{}
+                  - default: fail
+                    specializations:
+                    - - '0'
+                      - default: fail
+                        specializations:
+                        - - kseq{}
+                          - default: fail
+                            specializations:
+                            - - kseq{}
+                              - default: fail
+                                specializations:
+                                - - inj{SortInternalOp{}, SortKItem{}}
+                                  - default: fail
+                                    specializations:
+                                    - - Lbl'Hash'deductGas'Unds'EVM'Unds'InternalOp{}
+                                      - default: fail
+                                        specializations:
+                                        - - inj{SortGas{}, SortKItem{}}
+                                          - action:
+                                            - 49522
+                                            - - - &id001 ['1', '1']
+                                                - STRING.String
+                                              - - &id002 ['1', '0', '1']
+                                                - STRING.String
+                                              - - ['1', '1', '0', '0', '0', '0', '1']
+                                                - STRING.String
+                                              - - ['0', '0', '0', '0', '0', '0', '1']
+                                                - STRING.String
+                                              - - &id003 ['1', '0', '0', '1']
+                                                - STRING.String
+                                              - - &id004 ['4', '0', '0', '1']
+                                                - STRING.String
+                                              - - &id005 ['2', '0', '0', '1']
+                                                - STRING.String
+                                              - - &id006 ['3', '0', '0', '1']
+                                                - STRING.String
+                                              - - &id007 ['5', '0', '0', '1']
+                                                - STRING.String
+                                          - [STRING.String]
+                                        - - inj{SortInt{}, SortKItem{}}
+                                          - action:
+                                            - 49522
+                                            - - - *id001
+                                                - STRING.String
+                                              - - *id002
+                                                - STRING.String
+                                              - - ['1', '1', '0', '0', '0', '0', '1']
+                                                - STRING.String
+                                              - - ['0', '0', '0', '0', '0', '1']
+                                                - STRING.String
+                                              - - *id003
+                                                - STRING.String
+                                              - - *id004
+                                                - STRING.String
+                                              - - *id005
+                                                - STRING.String
+                                              - - *id006
+                                                - STRING.String
+                                              - - *id007
+                                                - STRING.String
+                                          - [INT.Int]
+                                        sort: STRING.String
+                                        occurrence: ['0', '0', '0', '0', '0', '1']
+                                      - []
+                                    sort: STRING.String
+                                    occurrence: ['0', '0', '1', '0', '0', '0', '0',
+                                      '1']
+                                  - [STRING.String]
+                                sort: STRING.String
+                                occurrence: ['0', '1', '0', '0', '0', '0', '1']
+                              - [STRING.String, STRING.String]
+                            sort: STRING.String
+                            occurrence: ['1', '0', '0', '0', '0', '1']
+                          - [STRING.String, STRING.String]
+                        sort: STRING.String
+                        occurrence: ['0', '0', '0', '0', '1']
+                      - []
+                    bitwidth: 1
+                    sort: BOOL.Bool
+                    occurrence: ['0', '4', '0', '0', '1']
+                  - [STRING.String]
+                sort: STRING.String
+                occurrence: ['0', '0', '0', '1']
+              - [BOOL.Bool]
+            sort: STRING.String
+            occurrence: ['4', '0', '0', '1']
+          - [STRING.String, STRING.String, STRING.String, STRING.String, STRING.String,
+            STRING.String]
+        sort: STRING.String
+        occurrence: ['0', '0', '1']
+      - [STRING.String, STRING.String]
+    sort: STRING.String
+    occurrence: ['0', '1']
+  - [STRING.String, STRING.String]
+sort: STRING.String
+occurrence: ['1']

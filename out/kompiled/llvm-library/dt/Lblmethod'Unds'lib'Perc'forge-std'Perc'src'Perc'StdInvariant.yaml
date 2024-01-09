@@ -1,0 +1,55 @@
+default: null
+specializations:
+- - Lblcontract'Unds'lib'Perc'forge-std'Perc'src'Perc'StdInvariant{}
+  - default: null
+    specializations:
+    - - Lblmethod'Unds'StdInvariant'Unds'S2KexcludeArtifacts'Unds'{}
+      - action:
+        - 51134
+        - []
+      - []
+    - - Lblmethod'Unds'StdInvariant'Unds'S2KexcludeContracts'Unds'{}
+      - action:
+        - 51135
+        - []
+      - []
+    - - Lblmethod'Unds'StdInvariant'Unds'S2KexcludeSenders'Unds'{}
+      - action:
+        - 51136
+        - []
+      - []
+    - - Lblmethod'Unds'StdInvariant'Unds'S2KtargetArtifactSelectors'Unds'{}
+      - action:
+        - 51137
+        - []
+      - []
+    - - Lblmethod'Unds'StdInvariant'Unds'S2KtargetArtifacts'Unds'{}
+      - action:
+        - 51138
+        - []
+      - []
+    - - Lblmethod'Unds'StdInvariant'Unds'S2KtargetContracts'Unds'{}
+      - action:
+        - 51139
+        - []
+      - []
+    - - Lblmethod'Unds'StdInvariant'Unds'S2KtargetInterfaces'Unds'{}
+      - action:
+        - 51140
+        - []
+      - []
+    - - Lblmethod'Unds'StdInvariant'Unds'S2KtargetSelectors'Unds'{}
+      - action:
+        - 51141
+        - []
+      - []
+    - - Lblmethod'Unds'StdInvariant'Unds'S2KtargetSenders'Unds'{}
+      - action:
+        - 51142
+        - []
+      - []
+    sort: STRING.String
+    occurrence: ['2']
+  - []
+sort: STRING.String
+occurrence: ['1']

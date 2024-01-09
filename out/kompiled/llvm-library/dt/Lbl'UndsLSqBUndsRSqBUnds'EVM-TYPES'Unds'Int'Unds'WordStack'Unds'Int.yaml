@@ -1,0 +1,75 @@
+args:
+- - &id001 ['2']
+  - INT.Int
+next:
+  default: null
+  specializations:
+  - - '1'
+    - action:
+      - 50174
+      - - - *id001
+          - INT.Int
+        - - &id002 ['1']
+          - STRING.String
+    - []
+  - - '0'
+    - args:
+      - - *id001
+        - INT.Int
+      next:
+        default: null
+        specializations:
+        - - '1'
+          - action:
+            - 50175
+            - - - *id002
+                - STRING.String
+              - - *id001
+                - INT.Int
+          - []
+        - - '0'
+          - default: fail
+            specializations:
+            - - Lbl'UndsColnUndsUnds'EVM-TYPES'Unds'WordStack'Unds'Int'Unds'WordStack{}
+              - args:
+                - - *id001
+                  - INT.Int
+                next:
+                  default: null
+                  specializations:
+                  - - '1'
+                    - action:
+                      - 50176
+                      - - - ['1', '1']
+                          - STRING.String
+                        - - *id001
+                          - INT.Int
+                        - - ['0', '1']
+                          - INT.Int
+                    - []
+                  - - '0'
+                    - fail
+                    - []
+                  bitwidth: 1
+                  sort: BOOL.Bool
+                  occurrence: &id003 [side_condition_50176]
+                function: side_condition_50176
+                sort: BOOL.Bool
+                occurrence: *id003
+              - [INT.Int, STRING.String]
+            sort: STRING.String
+            occurrence: *id002
+          - []
+        bitwidth: 1
+        sort: BOOL.Bool
+        occurrence: &id004 [side_condition_50175]
+      function: side_condition_50175
+      sort: BOOL.Bool
+      occurrence: *id004
+    - []
+  bitwidth: 1
+  sort: BOOL.Bool
+  occurrence: &id005 [side_condition_50174]
+function: side_condition_50174
+sort: BOOL.Bool
+occurrence: *id005

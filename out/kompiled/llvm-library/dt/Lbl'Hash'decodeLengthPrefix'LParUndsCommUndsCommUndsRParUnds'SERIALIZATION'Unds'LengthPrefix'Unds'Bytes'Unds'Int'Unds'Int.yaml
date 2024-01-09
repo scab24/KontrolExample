@@ -1,0 +1,104 @@
+args:
+- - &id001 ['3']
+  - INT.Int
+next:
+  default: null
+  specializations:
+  - - '1'
+    - action:
+      - 48593
+      - - - *id001
+          - INT.Int
+        - - &id002 ['1']
+          - BYTES.Bytes
+        - - &id003 ['2']
+          - INT.Int
+    - []
+  - - '0'
+    - args:
+      - - *id001
+        - INT.Int
+      next:
+        default: null
+        specializations:
+        - - '1'
+          - action:
+            - 48594
+            - - - *id002
+                - BYTES.Bytes
+              - - *id001
+                - INT.Int
+              - - *id003
+                - INT.Int
+          - []
+        - - '0'
+          - args:
+            - - *id001
+              - INT.Int
+            next:
+              default: null
+              specializations:
+              - - '1'
+                - action:
+                  - 48595
+                  - - - *id002
+                      - BYTES.Bytes
+                    - - *id001
+                      - INT.Int
+                    - - *id003
+                      - INT.Int
+                - []
+              - - '0'
+                - args:
+                  - - *id001
+                    - INT.Int
+                  next:
+                    default: null
+                    specializations:
+                    - - '1'
+                      - action:
+                        - 48596
+                        - - - *id002
+                            - BYTES.Bytes
+                          - - *id001
+                            - INT.Int
+                          - - *id003
+                            - INT.Int
+                      - []
+                    - - '0'
+                      - action:
+                        - 48592
+                        - - - *id001
+                            - INT.Int
+                          - - *id002
+                            - BYTES.Bytes
+                          - - *id003
+                            - INT.Int
+                      - []
+                    bitwidth: 1
+                    sort: BOOL.Bool
+                    occurrence: &id004 [side_condition_48596]
+                  function: side_condition_48596
+                  sort: BOOL.Bool
+                  occurrence: *id004
+                - []
+              bitwidth: 1
+              sort: BOOL.Bool
+              occurrence: &id005 [side_condition_48595]
+            function: side_condition_48595
+            sort: BOOL.Bool
+            occurrence: *id005
+          - []
+        bitwidth: 1
+        sort: BOOL.Bool
+        occurrence: &id006 [side_condition_48594]
+      function: side_condition_48594
+      sort: BOOL.Bool
+      occurrence: *id006
+    - []
+  bitwidth: 1
+  sort: BOOL.Bool
+  occurrence: &id007 [side_condition_48593]
+function: side_condition_48593
+sort: BOOL.Bool
+occurrence: *id007

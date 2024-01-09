@@ -1,0 +1,22 @@
+default: null
+specializations:
+- - Lblcontract'Unds'lib'Perc'forge-std'Perc'src'Perc'mocks'Perc'IERC721TokenReceiver{}
+  - default: null
+    specializations:
+    - - Lblmethod'Unds'IERC721TokenReceiver'Unds'S2KonERC721Received'Unds'address'Unds'address'Unds'uint256'Unds'bytes{}
+      - action:
+        - 51490
+        - - - ['0', '2']
+            - INT.Int
+          - - ['1', '2']
+            - INT.Int
+          - - ['2', '2']
+            - INT.Int
+          - - ['3', '2']
+            - BYTES.Bytes
+      - [INT.Int, INT.Int, INT.Int, BYTES.Bytes]
+    sort: STRING.String
+    occurrence: ['2']
+  - []
+sort: STRING.String
+occurrence: ['1']

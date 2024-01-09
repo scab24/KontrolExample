@@ -1,0 +1,55 @@
+default: null
+specializations:
+- - Lblcontract'Unds'lib'Perc'forge-std'Perc'src'Perc'stdError{}
+  - default: null
+    specializations:
+    - - Lblmethod'Unds'stdError'Unds'S2KarithmeticError'Unds'{}
+      - action:
+        - 51518
+        - []
+      - []
+    - - Lblmethod'Unds'stdError'Unds'S2KassertionError'Unds'{}
+      - action:
+        - 51519
+        - []
+      - []
+    - - Lblmethod'Unds'stdError'Unds'S2KdivisionError'Unds'{}
+      - action:
+        - 51520
+        - []
+      - []
+    - - Lblmethod'Unds'stdError'Unds'S2KencodeStorageError'Unds'{}
+      - action:
+        - 51521
+        - []
+      - []
+    - - Lblmethod'Unds'stdError'Unds'S2KenumConversionError'Unds'{}
+      - action:
+        - 51522
+        - []
+      - []
+    - - Lblmethod'Unds'stdError'Unds'S2KindexOOBError'Unds'{}
+      - action:
+        - 51523
+        - []
+      - []
+    - - Lblmethod'Unds'stdError'Unds'S2KmemOverflowError'Unds'{}
+      - action:
+        - 51524
+        - []
+      - []
+    - - Lblmethod'Unds'stdError'Unds'S2KpopError'Unds'{}
+      - action:
+        - 51525
+        - []
+      - []
+    - - Lblmethod'Unds'stdError'Unds'S2KzeroVarError'Unds'{}
+      - action:
+        - 51526
+        - []
+      - []
+    sort: STRING.String
+    occurrence: ['2']
+  - []
+sort: STRING.String
+occurrence: ['1']

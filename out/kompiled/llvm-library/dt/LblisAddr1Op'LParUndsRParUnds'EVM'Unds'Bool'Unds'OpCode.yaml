@@ -1,0 +1,45 @@
+default: &id001
+  action:
+  - 50403
+  - - - &id002 ['1']
+      - STRING.String
+specializations:
+- - inj{SortUnStackOp{}, SortOpCode{}}
+  - default: *id001
+    specializations:
+    - - LblBALANCE'Unds'EVM'Unds'UnStackOp{}
+      - action:
+        - 50404
+        - []
+      - []
+    - - LblEXTCODEHASH'Unds'EVM'Unds'UnStackOp{}
+      - action:
+        - 50406
+        - []
+      - []
+    - - LblEXTCODESIZE'Unds'EVM'Unds'UnStackOp{}
+      - action:
+        - 50407
+        - []
+      - []
+    - - LblSELFDESTRUCT'Unds'EVM'Unds'UnStackOp{}
+      - action:
+        - 50408
+        - []
+      - []
+    sort: STRING.String
+    occurrence: ['0', '1']
+  - [STRING.String]
+- - inj{SortQuadStackOp{}, SortOpCode{}}
+  - default: *id001
+    specializations:
+    - - LblEXTCODECOPY'Unds'EVM'Unds'QuadStackOp{}
+      - action:
+        - 50405
+        - []
+      - []
+    sort: STRING.String
+    occurrence: ['0', '1']
+  - [STRING.String]
+sort: STRING.String
+occurrence: *id002

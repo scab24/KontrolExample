@@ -1,0 +1,73 @@
+args:
+- - &id001 ['1']
+  - STRING.String
+next:
+  default: null
+  specializations:
+  - - '1'
+    - action:
+      - 49378
+      - - - *id001
+          - STRING.String
+    - []
+  - - '0'
+    - args:
+      - - *id001
+        - STRING.String
+      next:
+        default: null
+        specializations:
+        - - '1'
+          - action:
+            - 49379
+            - - - *id001
+                - STRING.String
+          - []
+        - - '0'
+          - default: &id002
+              action:
+              - 49380
+              - - - *id001
+                  - STRING.String
+            specializations:
+            - - inj{SortUnStackOp{}, SortOpCode{}}
+              - default: *id002
+                specializations:
+                - - LblSLOAD'Unds'EVM'Unds'UnStackOp{}
+                  - action:
+                    - 49381
+                    - []
+                  - []
+                sort: STRING.String
+                occurrence: ['0', '1']
+              - [STRING.String]
+            - - inj{SortBinStackOp{}, SortOpCode{}}
+              - default: *id002
+                specializations:
+                - - LblSSTORE'Unds'EVM'Unds'BinStackOp{}
+                  - action:
+                    - 49382
+                    - []
+                  - []
+                sort: STRING.String
+                occurrence: ['0', '1']
+              - [STRING.String]
+            - - inj{SortLogOp{}, SortOpCode{}}
+              - *id002
+              - [STRING.String]
+            sort: STRING.String
+            occurrence: *id001
+          - []
+        bitwidth: 1
+        sort: BOOL.Bool
+        occurrence: &id003 [side_condition_49379]
+      function: side_condition_49379
+      sort: BOOL.Bool
+      occurrence: *id003
+    - []
+  bitwidth: 1
+  sort: BOOL.Bool
+  occurrence: &id004 [side_condition_49378]
+function: side_condition_49378
+sort: BOOL.Bool
+occurrence: *id004

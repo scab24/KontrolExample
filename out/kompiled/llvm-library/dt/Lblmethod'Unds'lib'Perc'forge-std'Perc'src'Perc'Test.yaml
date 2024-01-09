@@ -1,0 +1,65 @@
+default: null
+specializations:
+- - Lblcontract'Unds'lib'Perc'forge-std'Perc'src'Perc'Test{}
+  - default: null
+    specializations:
+    - - Lblmethod'Unds'Test'Unds'S2KISZUndTEST'Unds'{}
+      - action:
+        - 51143
+        - []
+      - []
+    - - Lblmethod'Unds'Test'Unds'S2KexcludeArtifacts'Unds'{}
+      - action:
+        - 51144
+        - []
+      - []
+    - - Lblmethod'Unds'Test'Unds'S2KexcludeContracts'Unds'{}
+      - action:
+        - 51145
+        - []
+      - []
+    - - Lblmethod'Unds'Test'Unds'S2KexcludeSenders'Unds'{}
+      - action:
+        - 51146
+        - []
+      - []
+    - - Lblmethod'Unds'Test'Unds'S2Kfailed'Unds'{}
+      - action:
+        - 51147
+        - []
+      - []
+    - - Lblmethod'Unds'Test'Unds'S2KtargetArtifactSelectors'Unds'{}
+      - action:
+        - 51148
+        - []
+      - []
+    - - Lblmethod'Unds'Test'Unds'S2KtargetArtifacts'Unds'{}
+      - action:
+        - 51149
+        - []
+      - []
+    - - Lblmethod'Unds'Test'Unds'S2KtargetContracts'Unds'{}
+      - action:
+        - 51150
+        - []
+      - []
+    - - Lblmethod'Unds'Test'Unds'S2KtargetInterfaces'Unds'{}
+      - action:
+        - 51151
+        - []
+      - []
+    - - Lblmethod'Unds'Test'Unds'S2KtargetSelectors'Unds'{}
+      - action:
+        - 51152
+        - []
+      - []
+    - - Lblmethod'Unds'Test'Unds'S2KtargetSenders'Unds'{}
+      - action:
+        - 51153
+        - []
+      - []
+    sort: STRING.String
+    occurrence: ['2']
+  - []
+sort: STRING.String
+occurrence: ['1']

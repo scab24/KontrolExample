@@ -1,0 +1,20 @@
+default: null
+specializations:
+- - Lblcontract'Unds'lib'Perc'forge-std'Perc'lib'Perc'ds-test'Perc'src'Perc'DSTest{}
+  - default: null
+    specializations:
+    - - Lblmethod'Unds'DSTest'Unds'S2KISZUndTEST'Unds'{}
+      - action:
+        - 51129
+        - []
+      - []
+    - - Lblmethod'Unds'DSTest'Unds'S2Kfailed'Unds'{}
+      - action:
+        - 51130
+        - []
+      - []
+    sort: STRING.String
+    occurrence: ['2']
+  - []
+sort: STRING.String
+occurrence: ['1']
